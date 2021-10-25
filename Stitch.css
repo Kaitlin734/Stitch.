@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Margin";
+    src: url(Margin%20DEMO.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-color: #f3e9dc;
+    font-family: "Margin";
+	font-size: small;
+	margin: 0;
+	padding: 0;
+	}	
+#container {
+	background-color: #895737;
+	width: 1200px;
+	margin: auto;
+	padding: 0;
+	}	
+
+#header {
+	margin: auto;
+	width: 768px;
+	height: 120px;
+	}	
+	
+#content {
+	background-color: #f3e9dc;
+	margin: 0px 20px 0px 0px;
+	width: 1015px;
+    min-height: 700px;
+	float:right;
+	padding: 10px 10px 10px 40px;
+	}
+	
+#navigation {
+	background-color: #895737;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	float: left;
+	width: 100px;
+	/*height: 100%;
+	border: 1px solid black;*/
+	text-align: center;
+	}	
+	
+#footer {
+	clear: both;
+	background-color: #895737;
+/*    height: 5px;*/
+/*	padding: 10px 20px;*/
+	margin: 0 0 0 0;
+    
+	}	
+	
+table {
+	width: 250px;
+	margin: 5px 0 0 50px;
+	border-spacing: 10px 5px;
+	}	
+	
+th {
+	font-weight: bold;
+	border-bottom: 1px dashed black;
+	}	
+	
+td {
+	vertical-align: top;
+	}		
+	
+.seasoncol {
+	width: 20%;
+	text-align: left;
+		}
+
+.datescol {
+	width: 40%;
+	text-align: left;
+		}
+
+.body-img {
+	float: right;
+	margin: 5px 20px 0 5px;
+	border: 5px solid red;
+	}	
+	
