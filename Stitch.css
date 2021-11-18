@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Garden";
+    src: url(Fonts/Kingthings%20Organica.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-color: #f3e9dc;
+    font-family: "Garden";
+	font-size: small;
+	margin: 0;
+	padding: 0;
+	}	
+#container {
+	background-color: #895737;
+/*	width: 1700px;*/
+	margin: auto;
+	padding: 0;
+    max-width: 1300px
+/*    min-height: 700px*/
+	}
+.accessories {
+    
+}
+
+#header {
+	margin: auto;
+	width: 950px;
+	height: 120px;
+	}	
+
+.bigstitch {
+    margin: 0px 20px 20px 20px;
+    padding: 5px 50px 20px 50px;
+    font-size: 100px;
+    color: #f3e9dc;
+}
+	
+#content {
+	background-color: #f3e9dc;
+	margin: 0px 20px 0px 0px;
+	width: 1100px;
+    min-height: 700px;
+	float:right;
+	padding: 10px 10px 10px 40px;
+    align-content: flex-end;
+	}
+	
+#navigation {
+	background-color: #895737;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	float: left;
+	width: 105px;
+	height: 100%;
+	border: 1px solid black;
+	text-align: right;
+    text-decoration: none;
+	}	
+
+ul {
+    margin: 0;
+    flex-grow: 1;
+    text-align: end;
+    text-decoration: none;
+}
+
+li {
+    font-size: 30px;
+    text-decoration: none;
+    color: #f3e9dc;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+	
+#footer {
+	clear: both;
+	background-color: #895737;
+    height: 18px;
+/*	padding: 10px 20px;*/
+	margin: 0 0 0 0;
+    
+	}	
+	
+table {
+	width: 250px;
+	margin: 5px 0 0 50px;
+	border-spacing: 10px 5px;
+	}	
+	
+th {
+	font-weight: bold;
+	border-bottom: 1px dashed black;
+	}	
+	
+td {
+	vertical-align: top;
+	}		
+	
+.seasoncol {
+	width: 20%;
+	text-align: left;
+		}
+
+.datescol {
+	width: 40%;
+	text-align: left;
+		}
+
+.body-img {
+	float: right;
+	margin: 5px 20px 0 5px;
+	border: 5px solid red;
+	}	
+	
